@@ -122,6 +122,9 @@ body {
         gap:3px;
         text-align:center;
     }
+    .library{
+        height:425px;
+    }
     
 }
 
