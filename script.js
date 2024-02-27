@@ -74,7 +74,7 @@ let playMusic = (songj, pause=false) => {
 
 
 async function main() {
-    await getSongs(`/songs/${folder}`);
+    await getSongs("songs/cs");
     playMusic(songs[0], true)
 
     // console.log(songs);
