@@ -69,6 +69,7 @@ body {
         width:240px;
         z-index:10;
         padding:0;
+        height:100vh;
     }
     
     .right{
