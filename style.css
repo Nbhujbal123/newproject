@@ -69,7 +69,7 @@ body {
         width:240px;
         z-index:10;
         padding:0;
-        height:100vh;
+        height:97vh;
     }
     
     .right{
@@ -124,7 +124,7 @@ body {
         text-align:center;
     }
     .library{
-        height:425px;
+        height:430px;
     }
     
 }
