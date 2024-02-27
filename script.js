@@ -108,14 +108,14 @@ async function main() {
     })
 
     let open = document.querySelector(".hamber");
-    
+    console.log("open");
     open.addEventListener("click",()=>{
         document.querySelector(".left").style.left="0";
         // document.querySelector(".left").style.opacity=1;
         
     })
     let close = document.querySelector(".close");
-    
+    console.log("close");
     close.addEventListener("click", ()=>{
         document.querySelector(".left").style.left="-100%";
     })
