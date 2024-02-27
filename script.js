@@ -74,7 +74,7 @@ let playMusic = (songj, pause=false) => {
 
 
 async function main() {
-    await getSongs("songs/ncs");
+    await getSongs("songs");
     playMusic(songs[0], true)
 
     // console.log(songs);
