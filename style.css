@@ -97,7 +97,7 @@ body {
         gap:10px;
         /* width:126%; */
         padding:0px 36px;
-        bottom:60px;
+        bottom:65px;
         margin-left:5px;
     }
 
@@ -181,7 +181,7 @@ body {
     /* justify-content:space-between; */
     flex-wrap:wrap;
     /* gap:100px; */
-    height:400px;
+    height:490px;
     
 }
 
