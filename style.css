@@ -180,7 +180,7 @@ body {
     /* justify-content:space-between; */
     flex-wrap:wrap;
     /* gap:100px; */
-    height:410px;
+    height:400px;
     
 }
 
@@ -352,7 +352,7 @@ body {
 }
 
 .spotify-rs2 {
-    max-height:84%;
+    max-height:83%;
     overflow-y:scroll;
     
 }
