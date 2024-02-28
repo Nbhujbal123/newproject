@@ -33,6 +33,7 @@ async function getSongs(folder) {
         const element = as[i];
         if (element.href.endsWith(".mp3")) {
             songs.push(element.href.split(`/${currfolder}/`)[1]);
+            console.log(songs);
         }
     }
     let songUL = document.querySelector(".songList").getElementsByTagName("ul")[0];
@@ -57,7 +58,7 @@ async function getSongs(folder) {
 }
 
 let playMusic = (songj, pause=false) => {
-    currentsong.src = `/new programs/spotifycln/${currfolder}/` + songj;
+    currentsong.src = `/${currfolder}/` + songj;
     if(!pause){
         currentsong.play();
         play.src = "asetsnew/pause.svg"
