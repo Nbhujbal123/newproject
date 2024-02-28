@@ -77,7 +77,7 @@ async function main() {
     await getSongs("songs/cs");
     playMusic(songs[0], true)
 
-    // console.log(songs);
+    console.log(songs);
    
    
 
