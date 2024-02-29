@@ -112,6 +112,7 @@ body {
 
     .spotify-rs2 {
         width:100vw;
+        max-width:79%;
     }
     
     /* /* .playbar.songinfo{
