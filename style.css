@@ -60,7 +60,7 @@ body {
 @media  screen and (max-width:450px) {
     .contener{
         width:100%;
-        height:100vh;
+        height:95vh;
     }
     .left{
         position:absolute;
